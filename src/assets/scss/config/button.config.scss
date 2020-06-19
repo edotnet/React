@@ -1,0 +1,24 @@
+@import '../layout.config.scss';
+
+$btn-config: (
+  colors: (
+    primary: (
+      color: #2d6cc0,
+      hover: darken(#2d6cc0, $dark-opacity)
+    )
+  ),
+  border: (
+    width: 0,
+    color: white,
+    radius: 3px,
+  ),
+  text: (
+    text-align: center,
+    font-size: 17px,
+    font-weight: $font-bold,
+    letter-spacing: 0.42px,
+    color: #ffffff,
+    opacity: 1,
+    padding: 12px
+  )
+);

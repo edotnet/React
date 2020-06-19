@@ -1,0 +1,12 @@
+@import '../layout.config.scss';
+
+$externals: (
+  google: (
+    color: #EA4335,
+    hover: darken(#EA4335, $dark-opacity)
+  ),
+  facebook: (
+    color: #3B5998,
+    hover: darken(#3B5998, $dark-opacity)
+  )
+);

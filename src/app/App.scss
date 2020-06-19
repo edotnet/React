@@ -1,0 +1,18 @@
+@import '../assets/scss/global.scss';
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-muli;
+  font-style: $font-style-regular;
+  font-size: $font-size-14;
+  font-weight: $font-regular;
+  line-height: $line-spacing-18;
+  letter-spacing: $character-spacing-0-35;
+  color: $babec6;
+}
+
+#root {
+  height: 100%;
+}

@@ -1,0 +1,15 @@
+@import "../layout.config.scss";
+
+.text-primary {
+  color: #393B41;
+  font-size: 17px;
+  letter-spacing: 0.42px;
+  font-weight: $font-regular;
+}
+
+.text-secondary {
+  color: $light-gray;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: $font-regular;
+}

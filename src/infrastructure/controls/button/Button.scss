@@ -1,0 +1,41 @@
+@import "../../../assets/scss/layout.config.scss";
+@import "../../../assets/scss/config/button.config.scss";
+@import "../../../assets/scss/config/devices.config.scss";
+@import "../../../assets/scss/functions/global.scss";
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: $font-family-muli;
+  font-style: $font-style-regular;
+
+  @each $name, $border-value in map-deep-get($btn-config, border) {
+    border-#{$name}: #{$border-value};
+  }
+
+  @each $name, $text-value in map-deep-get($btn-config, text) {
+    #{$name}: #{$text-value};
+  }
+
+  @each $name, $color in map-get($btn-config, colors) {
+    $prop: map-deep-get($btn-config, colors, $name);
+
+    &.btn-#{$name} {
+      background-color: map-get($prop, color);
+    }
+    &.btn-#{$name}:hover {
+      background-color: map-get($prop, hover);
+    }
+  }
+
+  &-icon {
+    font-size: 18px;
+  }
+
+  @media (max-width: map-get($sizes, medium)) {
+    &-icon {
+      display: none;
+    }
+  }
+}

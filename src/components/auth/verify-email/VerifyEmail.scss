@@ -1,0 +1,24 @@
+@import "../../../assets/scss/layout.config.scss";
+
+.verify-email {
+  .back-resend-section {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .back,
+    .resend {
+      color: $light-gray;
+
+      &-icon {
+        padding-right: 10px;
+      }
+
+      &:hover,
+      .text-secondary {
+       color: darken($light-gray, $dark-opacity);
+      }
+    }
+  }
+}

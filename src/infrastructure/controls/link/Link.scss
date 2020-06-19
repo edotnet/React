@@ -1,0 +1,12 @@
+@import "../../../assets/scss/layout.config.scss";
+
+.custom-link {
+  text-decoration: none;
+  color: #2d6cc0;
+  cursor: pointer;
+  
+  &:hover {
+    text-decoration: none;
+    color: darken(#2d6cc0, $dark-opacity);
+  }
+}

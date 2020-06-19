@@ -1,0 +1,14 @@
+@import "../layout.config.scss";
+
+$divider-config: (
+  border: (
+    width: 1px,
+    color: #d7dce2 solid,
+  ),
+  text: (
+    color: $light-gray,
+    letter-spacing: 0.4px,
+    font-size: 16px,
+    font-weight: $font-regular,
+  ),
+);

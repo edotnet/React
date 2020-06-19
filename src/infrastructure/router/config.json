@@ -1,0 +1,9 @@
+{
+  "Home": "/",
+  "Auth": {
+    "path": "/auth",
+    "SignIn": "/auth/sign-in",
+    "SignUp": "/auth/sign-up",
+    "VerifyEmail": "/auth/verify-email"
+  }
+}

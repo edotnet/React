@@ -1,0 +1,17 @@
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+
+  &__input {
+    width: 25px;
+    height: 25px;
+
+    margin: 0;
+    margin-right: 9px;
+    cursor: pointer;
+  }
+
+  &__label {
+    color: #393B41;
+  }
+}

@@ -1,0 +1,19 @@
+.custom-input {
+  input {
+    border: 1px solid #dadce0;
+    border-radius: 3px;
+    padding: 14px;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    
+    &:focus {
+      border: 1px lightblue solid;
+      outline: 0;
+    }
+  }
+}
